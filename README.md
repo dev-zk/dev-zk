@@ -19,4 +19,3 @@ Explain how to use your project here.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-https://dev-zk.github.io/dev-zk

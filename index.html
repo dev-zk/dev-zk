@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,80 +39,91 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
- <!-- Header -->
-    <header class="text-gray-600 body-font bg-white shadow-md" data-aos="fade-down">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <span class="ml-3 text-xl">Zobaidul Kazi</span>
-            </a>
-            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-gray-900" href="#about">About</a>
-                <a class="mr-5 hover:text-gray-900" href="#services">Services</a>
-                <a class="mr-5 hover:text-gray-900" href="#projects">Projects</a>
-                <a class="hover:text-gray-900" href="#contact">Contact</a>
-            </nav>
+<body class="bg-gray-100 flex flex-col h-screen">
+    <!-- Header -->
+    <header
+      class="text-gray-600 body-font bg-white shadow-md"
+    >
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <!-- Name -->
+        <a
+          href="#"
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-xl">Zobaidul Kazi</span>
+        </a>
+        <!-- Icons (Responsive on Right) -->
+        <div
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-end"
+        >
+          <a href="https://github.com/zobaidulkazi64" target="_blank">
+            <img
+              src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-github.png?raw=true"
+              alt="GitHub"
+              class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/zobaidulkazi" target="_blank">
+            <img
+            src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-linkedin.png?raw=true"
+            alt="LinkedIn"
+            class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+          />
+          </a>
+         <a href="/" target="_blank">
+            <img
+            src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-telegram.png?raw=true"
+            alt="Telegram"
+            class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+          />
+         </a>
+         <a href="https://twitter.com/zobaidulkazi64" target="_blank">
+            <img
+            src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-twitterx.png?raw=true"
+            alt="Telegram"
+            class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+          />
+         </a>
+        <a href="/" target="_blank">
+            <img
+            src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-whatsapp.png?raw=true"
+            alt="WhatsApp"
+            class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+          />
+        </a>
+        <a href="https://www.youtube.com/@zobaidulkazi"  target="_blank">
+            <img
+            src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-youtube.png?raw=true"
+            alt="YouTube"
+            class="Box-sc-g0xbh4-0 kzRgrI ml-2"
+          />
+        </a>
         </div>
+      </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="text-gray-700 body-font" data-aos="fade-up">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="about" src="./images/zobaidulkazi-hero.png" />
-            </div>
-            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 underline font-medium text-gray-900">
-                    About Me
-                </h1>
-                <h3 class="sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-                    Hi, I'm Zobaidul Kazi👋🏽 Fullstack Developer
-                </h3>
-                <p class="mb-8 leading-relaxed">
-                    A fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!
-                </p>
-                <a href="./about.html" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Resume</a>
-            </div>
+    <!-- Main Content Body -->
+    <div class="flex-grow">
+      <!-- About Me Section -->
+      <section class="mb-8 container mx-auto mt-8">
+        <div class="w-3/4 max-h-lvh border p-9 m-auto items-center justify-center">
+          <h2 class="text-2xl font-bold mb-4">About Me</h2>
+          <p class="text-gray-700">
+            I'm a proficient back-end developer with a passion for creating
+            robust and efficient server-side solutions. With expertise in
+            languages like JavaScript, and Node.js, I strive to build scalable
+            and secure applications that meet the needs of clients.
+          </p>
         </div>
-    </section>
+      </section>
+    </div>
 
-     <!-- Services Section -->
-    <section id="services" class="text-gray-700 body-font" data-aos="fade-up">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 underline font-medium text-gray-900">
-                    Services I offer
-                </h1>
-                <h3 class="sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-                    I offer a wide range of services that I can help you with.
-                </h3>
-                <p class="mb-8 leading-relaxed">
-                    I offer a wide range of services that I can help you with. I can help you with the following:
-                    <ul>
-                        <li>Web Development</li>
-                        <li>Software Development</li>
-                        <li>Mobile App Development</li>
-                        <li>System Design and Implementation</li>
-                        <li>API Design and Development</li>
-                        <li>Database Design and Development</li>
-                        <li>Software Testing</li>
-                    </ul>
-                </p>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Resume</button>
-            </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="about" src="./assets/images/pp/13.png" />
-            </div>
-        </div>
-    </section>
-
-  <h1>Contacts</h1>
-    <img alt="zk-github.png" src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-github.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">
-    <img alt="zk-github.png" src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-linkedin.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">
-    <img alt="zk-github.png" src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-telegram.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">
-    <img alt="zk-github.png" src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-whatsapp.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">
-    <img alt="zk-github.png" src="https://github.com/dev-zk/dev-zk/blob/main/assets/icons/zk-youtube.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">    <!-- Footer Section -->
-  
-</body>
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-100 py-4 text-center">
+      <p>&copy; 2024 <a href="/">Kazi Byte</a> All Rights Reserved.</p>
+    </footer>
+  </body>
 
 </html>

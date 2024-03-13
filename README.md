@@ -1,16 +1,21 @@
-### Hi there 👋
+# Project Name
 
-<!--
-**dev-zk/dev-zk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a description of your project.
 
-Here are some ideas to get you started:
+## Setup
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Clone this repository.
+2. Install dependencies: `git clone `
+3. Start the development server: `run index.html file`
+
+## Usage
+
+Explain how to use your project here.
+
+## Live Link
+
+[Live Demo](https://dev-zk.github.io/dev-zk/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
